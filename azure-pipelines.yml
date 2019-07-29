@@ -30,10 +30,10 @@ pool:
 
 variables:
     CONAN_REFERENCE: "ZenGitHub/1.0"
-    CONAN_USERNAME: "jonico"
-    CONAN_LOGIN_USERNAME: "jonico"
+    CONAN_USERNAME: "ikeike443"
+    CONAN_LOGIN_USERNAME: "ikeike443"
     CONAN_CHANNEL: "stable"
-    CONAN_UPLOAD: "https://api.bintray.com/conan/conan-jonico/libzengithub"
+    CONAN_UPLOAD: "https://api.bintray.com/conan/conan-ikeike443/libzengithub"
     CONAN_STABLE_BRANCH_PATTERN: "release/*"
     CONAN_VISUAL_VERSIONS: $(vs-version)
     CONAN_APPLE_CLANG_VERSIONS: "10.0"
