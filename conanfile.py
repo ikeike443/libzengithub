@@ -5,7 +5,7 @@ class ZenGithubConan(ConanFile):
     name = "ZenGitHub"
     version = "1.0"
     license = "Apache 2.0"
-    url = "https://github.com/jonico/libzengithub"
+    url = "https://github.com/ikeike443/libzengithub"
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
     default_options = "shared=False"
