@@ -58,7 +58,3 @@ steps:
     displayName: Generating conan data directory
   - script: python build.py
     displayName: Building the solution
-  - script: conan create . ikeike443/testing
-    displayName: Test
-  - script: conan export . ZenGitHub/1.0@ikeike443/stable
-    displayName: Conan export
